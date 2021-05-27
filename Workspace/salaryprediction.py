@@ -6,7 +6,7 @@ print("\t\t\t------------------------")
 name = input('Enter employee name : ')
 import joblib
 num = float(input('Enter year of experience : '))
-model = joblib.load('SalaryPrediction.pk1')
+model = joblib.load('salaryprediction.pk1')
 print()
 print('Name               : ' ,name)
 print('Year_of_Experience : ', num)
